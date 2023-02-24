@@ -12,6 +12,10 @@ Usually debugging consists of 3 stages or steps:
 ## WAYS TO DEBUG IN C
 
 PRINT STATEMENTS
+
 This involves the use of print statements eg.printf; to figure out the value of the variables. Its a risky option as we  may forget to remove the print statements, leading them to be printed to an application's console.
+
+
 INTERACTIVE DEBUGGER
+
 C supports an interactive way of debugging. This means we can pause a program execution and spectate variables. Breakpoints are the lines where the program will pause during execution. This way, we need not add too many print statements t debug and remove them after debugging.
